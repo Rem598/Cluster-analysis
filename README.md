@@ -1,8 +1,8 @@
-# 📊 Customer Segmentation using Cluster Analysis in R
+#  Cluster Analysis in R
 
 ## 🎯 Problem Statement
 
-The goal of this project was to apply **unsupervised machine learning techniques** to segment a complex dataset and identify **naturally occurring, distinct groups** within the data. By uncovering these underlying structures, the analysis provides a foundation for targeted marketing, resource allocation, and specialized product development.
+This project applies **unsupervised cluster analysis** techniques to the widely used **Framingham Heart Study dataset** using the **R** programming language. The core goal is to identify **distinct groups** within the patient population that exhibit similar **cardiovascular health risk factors**. The analysis provides a foundation for **risk stratification**, **targeted public health intervention programs**, and **optimizing clinical resource allocation** for preventative care.
 
 **Tools Used:** **R** (Programming Language), **`dist`**, **`hclust`**, **`factoextra`**, **`NbClust`** (R Libraries)
 
@@ -20,7 +20,10 @@ The dataset used is the **Framingham Heart Study**, which contains multiple phys
 
 ## 🔧 Methodology & R Code Highlights
 
-The analysis combined two primary clustering techniques to validate the results: Hierarchical Clustering (for structure) and k-means (for efficiency).
+-Preprocessed data (handled missing values, standardized features).
+-Computed Euclidean distance matrix.
+-Performed hierarchical clustering (Ward’s method) and k-means clustering.
+-Visualized cluster structures using dendrograms and scatter plots.
 
 ### 1. Data Preprocessing
 
