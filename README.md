@@ -67,7 +67,7 @@ fviz_cluster(list(H_TREE, data = framingham_1, cluster = Clusters))
 Dendrogram
 ![Tree](https://github.com/Rem598/Cluster-analysis/blob/main/Dend%20colored.png)
 
-💡 Key Insights
+💡**Key Insights**
 - Clear Segmentation: Both Hierarchical Clustering and k-means validated that two distinct segments are present in the data, as evidenced by the NbClust result.
 
 - Actionable Grouping: The identified clusters exhibit clear statistical differences in their means across key variables (e.g., age, blood pressure, etc.), allowing for the definition of distinct customer profiles (e.g., "High-Risk Segment" vs. "Low-Risk Segment").
